@@ -1,5 +1,5 @@
 ## SimpleVoxel
-SimpleVoxel is using pseudo instancing technique to work on old mobile or old divices which is not suported instancing. There is this sort of class at asset store or git but I wanted create simple one and easy to modify code to any projects. If you know very fundamental matrix, vector and geometry pipeline, you can easily modify.
+SimpleVoxel is using pseudo instancing technique to work on old mobile or old divices which is not suported instancing. There is this sort of class at asset store or git but I wanted create simple one and easy to modify code to any projects. If you know very fundamental matrix, vector and geometry pipeline, you can easily modify.<br><br>
 ![Screenshot](screen0.png)
 
 ## How to set up:
@@ -19,7 +19,8 @@ Temporarily I've added 512x512 texture but you can edit whatever you want.
 If you want "NxN" block texture, you have to adjust texture and "TexUnit" variable at "Voxel.cs".
 "TexUnit" variable is equal to "(how many block texture you want) / 1".
 
-In Voxel scene, you'll see how you can manage and control blocks.
+## In this sample:
+In Voxel scene, you'll see how you can manage and control blocks.<br>
 In Terrain scene, this is verry simple terrain example.
 
 Importantlty, I haven't added collider. If you want collider, you need to add collider by yourself.
