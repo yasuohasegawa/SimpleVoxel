@@ -2,7 +2,7 @@
 SimpleVoxel is using pseudo instancing technique to work on old mobile or old divices which is not suported instancing. There is this sort of class at asset store or git but I wanted create simple one and easy to modify code to any projects. If you know very fundamental matrix, vector and geometry pipeline, you can easily modify.
 ![Screenshot](screen0.png)
 
-How to set up:
+## How to set up:
 1. Create empty GameObject in your scene.
 2. Add MeshFilter and MeshRenderer.
 3. If you want to use vertex color, please add "ColorMat" to MeshRenderer. or If you want to use texture, please add "CubeMat" to MeshRenderer.
@@ -11,7 +11,7 @@ How to set up:
 
 ![Screenshot](screen1.png)
 
-Applying textures to voxel:
+## Applying textures to voxel:
 you can add texture to top face and all around other faces. It's like Minecraft block look.
 And you can also wrap same texture to all of faces.
 
@@ -25,12 +25,12 @@ In Terrain scene, this is verry simple terrain example.
 Importantlty, I haven't added collider. If you want collider, you need to add collider by yourself.
 
 
-System Requirements:
+## System Requirements:
 Unity 5.3 or later versions.
 I only tested 5.3 one.
 
 
-License:
+## License:
 Copyright (C) 2017 Yasuo Hasegawa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
