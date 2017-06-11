@@ -17,7 +17,7 @@ And you can also wrap same texture to all of faces.
 
 Temporarily I've added 512x512 texture but you can edit whatever you want.
 If you want "NxN" block texture, you have to adjust texture and "TexUnit" variable at "Voxel.cs".
-"TexUnit" variable is equal to "(how many block texture you want) / 1".
+"TexUnit" variable is equal to "1/(how many block texture you want)".
 
 ## In this sample:
 In Voxel scene, you'll see how you can manage and control blocks.<br>
